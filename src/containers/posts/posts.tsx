@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 
 function PostsContainer(props: any) {
+  /**
+   * 1. Action -> Fetch
+   */
   useEffect(() => {
     props.fetchPost();
   }, []);
